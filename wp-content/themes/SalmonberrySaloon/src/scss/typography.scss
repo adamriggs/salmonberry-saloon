@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "AveriaSerifLibre-Bold";
+    src: url("../src/fonts/AveriaSerifLibre-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AveriaSerifLibre-BoldItalic";
+    src: url("../src/fonts/AveriaSerifLibre-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "AveriaSerifLibre-Regular";
+    src: url("../src/fonts/AveriaSerifLibre-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Times";
+    src: url("../src/fonts/Times.ttf");
+}
+
+$font-fallback: Arial, sans-serif;
