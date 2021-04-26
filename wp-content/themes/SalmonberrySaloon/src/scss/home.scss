@@ -4,10 +4,11 @@
 
         .home__primary__hero {
             height: 66vh;
+            margin: 5vh 0;
         }
 
         .arrow__container {
-            height: 20vh;
+            max-height: 20vh;
 
             img {
                 max-height: 100%;

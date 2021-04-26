@@ -14,11 +14,11 @@
 <div id="primary" class="content-area">
     <main id="main" class="site-main home" role="main">
 
-        <section class="home__primary row center middle">
+        <section class="home__primary">
 
             <img class="home__primary__hero col-12" src="<?php echo get_template_directory_uri() . '/images/hero.svg' ?>">
             <div class="arrow__container">
-                <div class="arrow__down col-12">
+                <div class="arrow__down">
                     <img src="<?php echo get_template_directory_uri() . '/images/arrow-down.svg' ?>">
                 </div>
             </div>

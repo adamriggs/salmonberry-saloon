@@ -664,12 +664,19 @@ img.aligncenter {
     height: 25px;
     width: 25px; } }
 
+footer {
+  margin: 30px; }
+  footer .footer__breadcrumb svg {
+    max-width: 60px;
+    width: 60px; }
+
 .home .home__primary {
   height: 100vh; }
   .home .home__primary .home__primary__hero {
-    height: 66vh; }
+    height: 66vh;
+    margin: 5vh 0; }
   .home .home__primary .arrow__container {
-    height: 20vh; }
+    max-height: 20vh; }
     .home .home__primary .arrow__container img {
       max-height: 100%; }
 
