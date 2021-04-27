@@ -16,7 +16,7 @@ body {
     color: $black;
     display: flex;
     flex-direction: column;
-    font-family: "Avenir", $font-fallback;
+    font-family: "AveriaSerifLibre-Regular", $font-fallback;
     font-size: 15px;
     margin: 0 auto;
     max-width: $max-width;
@@ -36,7 +36,7 @@ div#mc_embed_signup .mc-field-group input,
     border: 2px solid $black;
     border-radius: 50px;
     color: $black;
-    font-family: "AcuminVariableConcept", $font-fallback;
+    font-family: "AveriaSerifLibre-Regular", $font-fallback;
     font-size: 15px;
     font-weight: 800;
     padding: 5px 10px;
@@ -67,6 +67,10 @@ h1 {
     margin-bottom: $spacer;
     text-transform: uppercase;
     transition: color $transition-time ease-in-out;
+
+    &.black {
+        color: $black;
+    }
 }
 
 h2 {
@@ -76,12 +80,16 @@ h2 {
     margin-bottom: $spacer-less;
     text-transform: uppercase;
     transition: color $transition-time ease-in-out;
+
+    &.yellow {
+        color: $yellow;
+    }
 }
 
 h3 {
     color: $black;
-    font-family: "Barlow-Extra Bold", $font-fallback;
-    font-size: 22px;
+    font-family: "AveriaSerifLibre-Bold", $font-fallback;
+    font-size: 23px;
     line-height: 22px;
     text-transform: uppercase;
 
@@ -93,8 +101,8 @@ h3 {
 h4 {
     color: $black;
     display: inherit;
-    font-family: "Barlow-Extra Bold", $font-fallback;
-    font-size: 20px;
+    font-family: "AveriaSerifLibre-Bold", $font-fallback;
+    font-size: 15px;
     text-transform: uppercase;
 
     &.yellow {
@@ -105,14 +113,18 @@ h4 {
 h5 {
     color: $black;
     display: inherit;
-    font-family: "Avenir", $font-fallback;
+    font-family: "AveriaSerifLibre-Bold", $font-fallback;
     font-size: 9px;
+
+    &.yellow {
+        color: $yellow;
+    }
 }
 
 p,
 a {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 15px;
 
     strong {
         font-weight: 800;
@@ -153,8 +165,9 @@ a {
     text-decoration: none;
     transition: color $transition-time;
 
-    &:hover h4 {
+    &:hover {
         color: $yellow;
+        text-decoration: underline;
     }
 }
 
@@ -166,13 +179,13 @@ button,
 .button,
 #mc_embed_signup form .button {
     background-color: $yellow;
-    border: 1px solid $yellow;
-    color: $white;
+    border: 1px solid $black;
+    color: $black;
     cursor: pointer;
-    font-family: "Avenir", $font-fallback;
-    font-size: 15px;
+    font-family: "AveriaSerifLibre-Bold", $font-fallback;
+    font-size: 18px;
     height: auto;
-    line-height: 14px;
+    line-height: 20px;
     padding: 12px 15px;
     text-transform: uppercase;
     transition: background-color $transition-time, border $transition-time;
@@ -182,10 +195,11 @@ button,
         background-color: $black;
         border: 1px solid $black;
         color: $yellow;
+        text-decoration: none;
     }
 
     a {
-        font-family: "Avenir", $font-fallback;
+        font-family: "AveriaSerifLibre-Bold", $font-fallback;
         font-size: 15px;
         text-transform: uppercase;
     }
@@ -287,6 +301,10 @@ img.aligncenter {
 .arrow__down,
 .arrow__right {
     width: auto;
+}
+
+.order__now {
+    margin: $spacer-more 0;
 }
 
 @media only screen and (max-width: $max-width) {

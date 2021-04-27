@@ -1,9 +1,13 @@
 footer {
-    margin: $spacer;
+    margin: $spacer 0;
+
+    .footer__info {
+        div { margin-bottom: $spacer-less; }
+        img { width: 100px; }
+    }
 
     .footer__breadcrumb svg {
         max-width: 60px;
         width: 60px;
     }
-
 }

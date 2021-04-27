@@ -1,14 +1,18 @@
 .home {
     .home__primary {
+        background-image: url('../images/background-1.svg');
         height: 100vh;
 
         .home__primary__hero {
             height: 66vh;
-            margin: 5vh 0;
+            margin: 5vh 0 2vh 0;
+            max-width: 95vw;
         }
 
         .arrow__container {
             max-height: 20vh;
+
+            .arrow__down { height: 0; }
 
             img {
                 max-height: 100%;
@@ -17,11 +21,13 @@
     }
 
     .home__secondary {
-        background-color: $white;
-        margin: 0 $spacer-more;
-        padding: $spacer-more 0;
+        background-image: url('../images/background-2.svg');
 
         .home__secondary__menu {
+            background-color: $white;
+            margin: 0 200px;
+            padding: $spacer-more 0;
+
             h1 {
                 margin-bottom: $spacer;
             }
@@ -33,6 +39,88 @@
             p {
                 margin-bottom: $spacer;
             }
+        }
+    }
+
+    .home__tertiary {
+        background-color: $yellow;
+        background-image: url('../images/background-3.svg');
+
+        .home__tertiary__container {
+            background-color: $white;
+            margin: 0 200px;
+            padding: $spacer-more 0;
+        }
+
+        .home__tertiary__title {
+            img { width: 140px; }
+            h1 { font-size: 41px; }
+
+            margin-bottom: $spacer;
+        }
+
+        .home__tertiary__producers {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+            grid-gap: 1rem;
+            max-width: 100%;
+        }
+
+        .home__tertiary__producer {
+            padding: 0 $spacer $spacer-more $spacer-less;
+
+            .home__tertiary__producer__image {
+                padding-right: $spacer-less;
+            }
+
+            .home__tertiary__producer__content {
+                // p { font-size: 12px; }
+            }
+        }
+    }
+
+    .home__quaternary {
+        margin: 0 200px;
+        padding: $spacer-more 0;
+
+        > div { margin-bottom: $spacer; }
+
+        .home__quaternary__contact__title {
+            margin-bottom: $spacer;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-break) {
+    .home {
+        .home__secondary {
+            .home__secondary__menu {
+                margin: 0 10px;
+            }
+        }
+
+        .home__tertiary {
+            .home__tertiary__container {
+                margin: 0 10px;
+            }
+
+            .home__tertiary__producer {
+                padding: 0 $spacer-less;
+
+                .home__tertiary__producer__image {
+                    @include flex__full;
+
+                    padding-right: 0;
+                }
+
+                .home__tertiary__producer__content {
+                    @include flex__full;
+                }
+            }
+        }
+
+        .home__quaternary {
+            div { @include flex__full; }
         }
     }
 }
