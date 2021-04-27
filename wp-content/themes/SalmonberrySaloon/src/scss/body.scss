@@ -142,8 +142,8 @@ p {
         font-weight: 800;
         text-decoration: underline;
         text-decoration: none;
-        text-decoration-color: $black;
-        transition: color $transition-time ease-in-out;
+        text-decoration-color: $white;
+        transition: all $transition-time ease-in-out;
 
         &:hover {
             color: $yellow;
@@ -163,6 +163,7 @@ p {
 a {
     color: inherit;
     text-decoration: none;
+    text-decoration-color: $yellow;
     transition: color $transition-time;
 
     &:hover {

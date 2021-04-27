@@ -513,10 +513,10 @@ p {
     font-weight: 800;
     text-decoration: underline;
     text-decoration: none;
-    -webkit-text-decoration-color: #000;
-            text-decoration-color: #000;
-    -webkit-transition: color 0.25s ease-in-out;
-    transition: color 0.25s ease-in-out; }
+    -webkit-text-decoration-color: #fff;
+            text-decoration-color: #fff;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
     p a:hover {
       color: #ffca02;
       -webkit-text-decoration-color: #ffca02;
@@ -529,6 +529,8 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+  -webkit-text-decoration-color: #ffca02;
+          text-decoration-color: #ffca02;
   -webkit-transition: color 0.25s;
   transition: color 0.25s; }
   a:hover {
@@ -687,7 +689,8 @@ footer {
 
 .home .home__primary {
   background-image: url("../images/background-1.svg");
-  height: 100vh; }
+  height: 100vh;
+  min-height: -webkit-fill-available; }
   .home .home__primary .home__primary__hero {
     height: 66vh;
     margin: 5vh 0 2vh 0;
