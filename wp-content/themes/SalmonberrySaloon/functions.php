@@ -76,8 +76,6 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
-add_filter( 'woocommerce_return_to_shop_redirect', 'st_woocommerce_shop_url' );
-
 function strPrettify($str) {
     // $words = ;
     $region = implode(' ', explode('-', $str));

@@ -117,11 +117,14 @@
                 .home__tertiary__producer__image {
                     @include flex__full;
 
+                    // margin: 0 5px;
                     padding-right: 0;
                 }
 
                 .home__tertiary__producer__content {
                     @include flex__full;
+
+                    padding: 0 5px;
                 }
             }
         }
@@ -132,7 +135,7 @@
             div { @include flex__full; }
 
             .home__quaternary__contact .col-4 {
-                margin-bottom: $spacer-less;
+                margin-bottom: $spacer;
             }
         }
     }

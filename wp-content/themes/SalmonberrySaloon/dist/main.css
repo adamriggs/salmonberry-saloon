@@ -763,7 +763,8 @@ footer {
     .home .home__tertiary .home__tertiary__producer .home__tertiary__producer__content {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 5px; }
   .home .home__quaternary {
     margin: 0 10px; }
     .home .home__quaternary div {
@@ -771,5 +772,5 @@ footer {
           flex-basis: 100%;
       max-width: 100%; }
     .home .home__quaternary .home__quaternary__contact .col-4 {
-      margin-bottom: 18px; } }
+      margin-bottom: 30px; } }
 

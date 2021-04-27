@@ -101,15 +101,15 @@
                 <div class="home__quaternary__contact__title col-12 middle"><h3 class="yellow">Contact Us</h3></div>
                 <div class="row middle center">
                     <div class="col-4">
-                        <a href="mailto:<?php echo $email; ?>" target="_blank"><h4 class="yellow">Email Us: <br><?php echo $email; ?></h4></a>
+                        <a href="mailto:<?php echo $email; ?>" target="_blank"><h3 class="yellow">Email</h3></a>
                     </div>
 
                     <div class="col-4">
-                        <a href="<?php echo $map; ?>" target="_blank"><h4 class="yellow">Map</h4></a>
+                        <a href="<?php echo $map; ?>" target="_blank"><h3 class="yellow">Map</h3></a>
                     </div>
 
                     <div class="col-4">
-                        <a href="tel:<?php echo $phone; ?>"><h4 class="yellow">Call</h4></a>
+                        <a href="tel:<?php echo $phone; ?>"><h3 class="yellow">Call</h3></a>
                     </div>
                 </div>
             </div>
