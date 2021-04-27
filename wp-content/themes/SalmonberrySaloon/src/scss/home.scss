@@ -2,10 +2,12 @@
     .home__primary {
         background-image: url('../images/background-1.svg');
         height: 100vh;
-        min-height: -webkit-fill-available;
+        // height: calc(var(--vh, 1vh) * 100);
+        // height: calc(100vh - var(--vh-offset, 0px));
+        // min-height: -webkit-fill-available;
 
         .home__primary__hero {
-            height: 66vh;
+            max-height: 66vh;
             margin: 5vh 0 2vh 0;
             max-width: 95vw;
         }

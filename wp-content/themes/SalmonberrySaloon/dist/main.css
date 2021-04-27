@@ -513,10 +513,10 @@ p {
     font-weight: 800;
     text-decoration: underline;
     text-decoration: none;
-    -webkit-text-decoration-color: #fff;
-            text-decoration-color: #fff;
-    -webkit-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out; }
+    -webkit-text-decoration-color: #ffca02;
+            text-decoration-color: #ffca02;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s; }
     p a:hover {
       color: #ffca02;
       -webkit-text-decoration-color: #ffca02;
@@ -531,8 +531,8 @@ a {
   text-decoration: none;
   -webkit-text-decoration-color: #ffca02;
           text-decoration-color: #ffca02;
-  -webkit-transition: color 0.25s;
-  transition: color 0.25s; }
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s; }
   a:hover {
     color: #ffca02;
     text-decoration: underline; }
@@ -689,10 +689,9 @@ footer {
 
 .home .home__primary {
   background-image: url("../images/background-1.svg");
-  height: 100vh;
-  min-height: -webkit-fill-available; }
+  height: 100vh; }
   .home .home__primary .home__primary__hero {
-    height: 66vh;
+    max-height: 66vh;
     margin: 5vh 0 2vh 0;
     max-width: 95vw; }
   .home .home__primary .arrow__container {
