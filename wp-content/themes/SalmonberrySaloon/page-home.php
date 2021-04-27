@@ -28,6 +28,7 @@
     // print_r($slideshow);
     // echo('</pre>');
 ?>
+hi
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main home" role="main">
