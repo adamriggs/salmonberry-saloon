@@ -104,8 +104,15 @@
                 margin: 0 10px;
             }
 
+            .home__tertiary__producers {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+                grid-gap: 1rem;
+                max-width: 100%;
+            }
+
             .home__tertiary__producer {
-                padding: 0 $spacer-less;
+                padding: 0;
 
                 .home__tertiary__producer__image {
                     @include flex__full;
@@ -120,7 +127,13 @@
         }
 
         .home__quaternary {
+            margin: 0 10px;
+
             div { @include flex__full; }
+
+            .home__quaternary__contact .col-4 {
+                margin-bottom: $spacer-less;
+            }
         }
     }
 }
