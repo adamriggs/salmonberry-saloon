@@ -712,11 +712,20 @@ footer {
   .home .home__secondary .home__secondary__menu {
     background-color: #fff;
     margin: 0 200px;
-    padding: 70px 0; }
+    padding: 70px 0;
+    text-align: center; }
+    .home .home__secondary .home__secondary__menu h1,
+    .home .home__secondary .home__secondary__menu h2,
+    .home .home__secondary .home__secondary__menu h3,
+    .home .home__secondary .home__secondary__menu h4,
+    .home .home__secondary .home__secondary__menu h5,
+    .home .home__secondary .home__secondary__menu h6,
+    .home .home__secondary .home__secondary__menu p {
+      text-align: center; }
     .home .home__secondary .home__secondary__menu h1 {
       margin-bottom: 30px; }
     .home .home__secondary .home__secondary__menu h2 {
-      margin-bottom: 18px; }
+      margin-bottom: 9px; }
     .home .home__secondary .home__secondary__menu p {
       margin-bottom: 30px; }
 

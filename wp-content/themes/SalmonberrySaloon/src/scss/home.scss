@@ -30,13 +30,24 @@
             background-color: $white;
             margin: 0 200px;
             padding: $spacer-more 0;
+            text-align: center;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p {
+                text-align: center;
+            }
 
             h1 {
                 margin-bottom: $spacer;
             }
 
             h2 {
-                margin-bottom: $spacer-less;
+                margin-bottom: 9px;
             }
 
             p {
@@ -87,6 +98,10 @@
         padding: $spacer-more 0 0 0;
 
         > div { margin-bottom: $spacer; }
+
+        .home__quaternary__slider {
+
+        }
 
         .home__quaternary__contact__title {
             margin-bottom: $spacer;
