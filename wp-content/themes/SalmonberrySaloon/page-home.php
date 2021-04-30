@@ -52,7 +52,7 @@
             </div>
         </section>
 
-        <section class="home__tertiary background__image">
+        <section class="home__tertiary">
 
             <div class="home__tertiary__container">
                 <div class="home__tertiary__title row middle">

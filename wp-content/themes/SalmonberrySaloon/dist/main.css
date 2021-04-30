@@ -694,7 +694,7 @@ footer {
     width: 60px; }
 
 .home .home__primary {
-  background-image: url("../images/background-1.svg");
+  background-image: url("../images/tile-1.png");
   height: 100vh; }
   .home .home__primary .home__primary__hero {
     max-height: 66vh;
@@ -732,7 +732,7 @@ footer {
 
 .home .home__tertiary {
   background-color: #ffca02;
-  background-image: url("../images/background-3.svg"); }
+  background-image: url("../images/tile-2.png"); }
   .home .home__tertiary .home__tertiary__container {
     background-color: #fff;
     margin: 0 200px;

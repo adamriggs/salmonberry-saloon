@@ -1,6 +1,6 @@
 .home {
     .home__primary {
-        background-image: url('../images/background-1.svg');
+        background-image: url('../images/tile-1.png');
         height: 100vh;
         // height: calc(var(--vh, 1vh) * 100);
         // height: calc(100vh - var(--vh-offset, 0px));
@@ -59,7 +59,7 @@
 
     .home__tertiary {
         background-color: $yellow;
-        background-image: url('../images/background-3.svg');
+        background-image: url('../images/tile-2.png');
 
         .home__tertiary__container {
             background-color: $white;
