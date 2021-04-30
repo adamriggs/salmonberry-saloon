@@ -750,6 +750,8 @@ footer {
     margin-bottom: 30px; }
   .home .home__quaternary .home__quaternary__contact__title {
     margin-bottom: 30px; }
+  .home .home__quaternary .home__quaternary__commons {
+    margin: 70px 0 30px; }
 
 @media only screen and (max-width: 768px) {
   .home .home__secondary .home__secondary__menu {
