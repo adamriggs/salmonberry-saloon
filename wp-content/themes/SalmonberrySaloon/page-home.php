@@ -35,7 +35,7 @@
         <section class="home__primary background__image center middle">
 
             <img class="home__primary__hero col-12" src="<?php echo get_template_directory_uri() . '/images/hero.svg' ?>">
-            
+
             <div class="arrow__container">
                 <div class="arrow__down">
                     <img src="<?php echo get_template_directory_uri() . '/images/arrow-down.svg' ?>">
@@ -102,32 +102,28 @@
                 <div class="home__quaternary__contact__title col-12 middle"><h3 class="yellow">Contact Us</h3></div>
                 <div class="row middle center">
                     <div class="col-4">
-                        <a href="mailto:<?php echo $email; ?>" target="_blank"><h3 class="yellow">Email</h3></a>
+                        <a href="mailto:<?php echo $email; ?>" target="_blank"><h3 class="white">Email</h3></a>
                     </div>
 
                     <div class="col-4">
-                        <a href="<?php echo $map; ?>" target="_blank"><h3 class="yellow">Map</h3></a>
+                        <a href="<?php echo $map; ?>" target="_blank"><h3 class="white">Map</h3></a>
                     </div>
 
                     <div class="col-4">
-                        <a href="tel:<?php echo $phone; ?>"><h3 class="yellow">Call</h3></a>
+                        <a href="tel:<?php echo $phone; ?>"><h3 class="white">Call</h3></a>
                     </div>
                 </div>
             </div>
 
-            <div class="home__quaternary__commons row middle">
-                <div class="col-12">
+            <div class="home__quaternary__commons row center middle">
+                <div class="col-8">
                     <a href="<?php echo $sbc_link_url; ?>" target="_blank"><img src="<?php echo $sbc_image; ?>"></a>
                 </div>
-                <div class="col-12">
+                <div class="col-8">
                     <a href="<?php echo $sbc_link_url; ?>" target="_blank"><h3 class="yellow"><?php echo $sbc_link_text; ?></h3></a>
                 </div>
 
             </div>
-
-        <section>
-
-        </section>
 
     </main>
 </div>

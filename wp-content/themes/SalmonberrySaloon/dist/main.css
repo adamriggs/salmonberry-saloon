@@ -479,6 +479,12 @@ h3 {
   text-transform: uppercase; }
   h3.yellow {
     color: #ffca02; }
+  h3.white {
+    color: #fff; }
+
+a h3.white {
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff; }
 
 h4 {
   color: #000;
@@ -739,7 +745,7 @@ footer {
 
 .home .home__quaternary {
   margin: 0 200px;
-  padding: 70px 0; }
+  padding: 70px 0 0 0; }
   .home .home__quaternary > div {
     margin-bottom: 30px; }
   .home .home__quaternary .home__quaternary__contact__title {

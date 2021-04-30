@@ -96,6 +96,14 @@ h3 {
     &.yellow {
         color: $yellow;
     }
+
+    &.white {
+        color: $white;
+    }
+}
+
+a h3.white {
+    text-decoration-color: $white; 
 }
 
 h4 {
