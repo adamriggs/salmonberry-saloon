@@ -695,7 +695,6 @@ footer {
 
 .home .home__primary {
   background-image: url("../images/background-1.svg");
-  background-repeat: repeat;
   height: 100vh; }
   .home .home__primary .home__primary__hero {
     max-height: 66vh;
@@ -709,7 +708,7 @@ footer {
       max-height: 100%; }
 
 .home .home__secondary {
-  background-image: url("../images/background-2.svg");
+  background-image: url("../images/tile-2.png");
   background-repeat: repeat; }
   .home .home__secondary .home__secondary__menu {
     background-color: #fff;

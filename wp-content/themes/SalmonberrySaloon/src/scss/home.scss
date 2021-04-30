@@ -1,7 +1,6 @@
 .home {
     .home__primary {
         background-image: url('../images/background-1.svg');
-        background-repeat: repeat;
         height: 100vh;
         // height: calc(var(--vh, 1vh) * 100);
         // height: calc(100vh - var(--vh-offset, 0px));
@@ -25,7 +24,7 @@
     }
 
     .home__secondary {
-        background-image: url('../images/background-2.svg');
+        background-image: url('../images/tile-2.png');
         background-repeat: repeat;
 
         .home__secondary__menu {
