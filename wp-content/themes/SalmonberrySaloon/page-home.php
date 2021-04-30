@@ -32,7 +32,7 @@
 <div id="primary" class="content-area">
     <main id="main" class="site-main home" role="main">
 
-        <section class="home__primary background__image center middle">
+        <section class="home__primary center middle">
 
             <img class="home__primary__hero col-12" src="<?php echo get_template_directory_uri() . '/images/hero.svg' ?>">
 
@@ -44,7 +44,7 @@
 
         </section>
 
-        <section class="home__secondary background__image">
+        <section class="home__secondary">
             <div class="home__secondary__menu">
                 <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div>
                 <?php echo $menu; ?>
@@ -52,7 +52,7 @@
             </div>
         </section>
 
-        <section class="home__tertiary background__image">
+        <section class="home__tertiary">
 
             <div class="home__tertiary__container">
                 <div class="home__tertiary__title row middle">
