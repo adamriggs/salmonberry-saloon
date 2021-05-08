@@ -72,9 +72,6 @@
                         foreach($producers as $producer) {
                             $producer = $producer['producer'];
                             $id = $producer->ID;
-                            // echo('<pre>');
-                            // print_r($id);
-                            // echo('</pre>');
                     ?>
                             <div class="home__tertiary__producer row">
                                 <div class="home__tertiary__producer__image col-4">

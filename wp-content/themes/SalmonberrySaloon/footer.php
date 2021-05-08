@@ -4,12 +4,33 @@
     $phone = get_field('phone', 'option');
     $email = get_field('email', 'option');
     $map = get_field('map', 'option');
+    $social_links = get_field('social_links', 'option');
 
     // echo('<pre>');
-    // print_r($map);
+    // print_r($social_links);
     // echo('</pre>');
 ?>
-    <footer class="row center">
+    <footer class="row center middle">
+        <section class="footer__social row center middle">
+
+            <?php
+                foreach($social_links as $social) {
+                    // echo('<pre>');
+                    // print_r($social['site']);
+                    // echo('</pre>');
+            ?>
+                    <div class="footer__social__link">
+                        <a href="<?php echo $social['url']; ?>">
+                            <img src="<?php echo $social['image']['url'] ?>" alt="<?php echo $social['site']; ?>">
+                        </a>
+                    </div>
+
+
+            <?php 
+                }
+            ?>
+
+        </section>
 
         <section class="footer__info">
             <div>
