@@ -20,7 +20,7 @@
                     // echo('</pre>');
             ?>
                     <div class="footer__social__link">
-                        <a href="<?php echo $social['url']; ?>">
+                        <a href="<?php echo $social['url']; ?>" target="_blank">
                             <img src="<?php echo $social['image']['url'] ?>" alt="<?php echo $social['site']; ?>">
                         </a>
                     </div>
