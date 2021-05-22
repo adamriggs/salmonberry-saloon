@@ -46,9 +46,9 @@
 
         <section class="home__secondary">
             <div class="home__secondary__menu">
-                <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div>
+                <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
                 <?php echo $menu; ?>
-                <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div>
+                <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
             </div>
         </section>
 
