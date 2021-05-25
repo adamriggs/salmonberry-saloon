@@ -47,6 +47,7 @@
         <section class="home__secondary">
             <div class="home__secondary__menu">
                 <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
+                <button class="order__now middle upserve-olo-button upserve-olo-opener">Order Online</button>
                 <?php echo $menu; ?>
                 <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
             </div>
@@ -124,5 +125,7 @@
 
     </main>
 </div>
+
+<script src='https://app.upserve.com/platform/olo-widget.js?salmonberry-saloon-wheeler' type='text/javascript' id='upserve-olo-script'></script>
 
 <?php get_footer(); ?>
