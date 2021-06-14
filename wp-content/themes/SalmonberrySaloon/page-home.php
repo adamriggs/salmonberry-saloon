@@ -1,4 +1,5 @@
 <?php
+    wp_enqueue_script('main', get_template_directory_uri() . '/dist/home-bundle.js', [], time());
     get_header();
 ?>
 

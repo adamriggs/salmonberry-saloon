@@ -103,7 +103,7 @@ h3 {
 }
 
 a h3.white {
-    text-decoration-color: $white; 
+    text-decoration-color: $white;
 }
 
 h4 {
@@ -314,6 +314,10 @@ img.aligncenter {
 
 .order__now {
     margin: $spacer-more 0;
+}
+
+.single-page {
+    color: $white;
 }
 
 @media only screen and (max-width: $max-width) {
