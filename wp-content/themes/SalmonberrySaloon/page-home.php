@@ -17,6 +17,7 @@
     $phone = get_field('phone', 'option');
     $email = get_field('email', 'option');
     $map = get_field('map', 'option');
+    $gift_card = get_field('gift_card_form', 'option');
 
     $salmonberry_commons = get_field('salmonberry_commons');
     $sbc_image = $salmonberry_commons['image']['url'];
@@ -100,16 +101,25 @@
             <div class="home__quaternary__contact row">
                 <div class="home__quaternary__contact__title col-12 middle"><h3 class="yellow">Contact Us</h3></div>
                 <div class="row middle center">
-                    <div class="col-4">
+                    <div class="col-3">
                         <a href="mailto:<?php echo $email; ?>" target="_blank"><h3 class="white">Email</h3></a>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-3">
                         <a href="<?php echo $map; ?>" target="_blank"><h3 class="white">Map</h3></a>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-3">
                         <a href="tel:<?php echo $phone; ?>"><h3 class="white">Call</h3></a>
+                    </div>
+
+                    <div class="col-3">
+                        <a class="gift-card__popup"><h3 class="white">Gift Cards</h3></a>
+                    </div>
+
+                    <div class="pop-up pop-up--hide gift-card__popup__modal">
+                        <div class="pop-up--close row end">✖</div>
+                        <?php echo do_shortcode($gift_card); ?>
                     </div>
                 </div>
             </div>

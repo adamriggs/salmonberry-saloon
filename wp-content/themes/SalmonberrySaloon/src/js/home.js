@@ -47,24 +47,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     homeIO.observe(heroArrowNode);
 
-    // MENU STUFF
-    // document.querySelectorAll('header .menu-item-has-children').forEach(node => {
-    //     node.addEventListener('mouseenter', e => {
-    //         e.preventDefault();
-    //         e.stopPropagation();
-    //         e.target.classList.add('menu-open');
-    //     });
-    //     node.addEventListener('mouseleave', e => {
-    //         e.preventDefault();
-    //         e.stopPropagation();
-    //         e.target.classList.remove('menu-open');
-    //     });
-    // });
+    // open popup
+    const giftCard = document.querySelector('.gift-card__popup');
+    giftCard.addEventListener('click', () => {
+        const popUp = document.querySelector('.gift-card__popup__modal');
+        popUp.classList.remove('pop-up--hide');
+        console.log(popUp);
+    });
+    console.log(giftCard);
 
-    // const hamburger = document.getElementById('hamburger-menu');
-    // const mobileMenu = document.getElementById('menu__mobile');
-    // hamburger.addEventListener('click', () => {
-    //     hamburger.classList.toggle('is-active');
-    //     mobileMenu.classList.toggle('show');
-    // });
+    // close popup
+    const close = Array.from(document.getElementsByClassName('pop-up--close'));
+
+    close.forEach((elem)=> {
+        elem.addEventListener('click', (e) => {
+            console.log('click');
+            console.log(elem);
+            console.log(elem.parentElement);
+            elem.parentElement.classList.add('pop-up--hide');
+        });
+    });
 });

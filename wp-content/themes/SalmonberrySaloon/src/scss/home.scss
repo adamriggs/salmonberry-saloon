@@ -100,10 +100,6 @@
 
         > div { margin-bottom: $spacer; }
 
-        .home__quaternary__slider {
-
-        }
-
         .home__quaternary__contact__title {
             margin-bottom: $spacer;
         }
@@ -112,6 +108,30 @@
             margin: $spacer-more 0 $spacer;
         }
     }
+}
+
+.gift-card__popup {
+    cursor: pointer;
+}
+
+.pop-up {
+    background-color: $white;
+    border: 1px solid $black;
+    box-shadow: 10px 10px 10px $gray;
+    position: fixed;
+    top: 20px;
+    transition: opacity $transition-time;
+}
+
+.pop-up--hide {
+    display: none;
+    opacity: 0;
+}
+
+.pop-up--close {
+    cursor: pointer;
+    margin: 10px 0;
+    padding-right: 10px;
 }
 
 @media only screen and (max-width: $mobile-break) {

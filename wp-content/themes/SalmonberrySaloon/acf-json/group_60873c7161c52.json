@@ -179,6 +179,25 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_60ccdc0e379c9",
+            "label": "Gift Card Form",
+            "name": "gift_card_form",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -198,5 +217,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1620479043
+    "modified": 1624038432
 }

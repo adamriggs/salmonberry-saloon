@@ -774,6 +774,28 @@ footer {
   .home .home__quaternary .home__quaternary__commons {
     margin: 70px 0 30px; }
 
+.gift-card__popup {
+  cursor: pointer; }
+
+.pop-up {
+  background-color: #fff;
+  border: 1px solid #000;
+  -webkit-box-shadow: 10px 10px 10px #383838;
+          box-shadow: 10px 10px 10px #383838;
+  position: fixed;
+  top: 20px;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s; }
+
+.pop-up--hide {
+  display: none;
+  opacity: 0; }
+
+.pop-up--close {
+  cursor: pointer;
+  margin: 10px 0;
+  padding-right: 10px; }
+
 @media only screen and (max-width: 768px) {
   .home .home__secondary .home__secondary__menu {
     margin: 0 10px; }
