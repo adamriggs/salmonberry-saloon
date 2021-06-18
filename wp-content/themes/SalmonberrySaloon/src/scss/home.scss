@@ -118,6 +118,7 @@
     background-color: $white;
     border: 1px solid $black;
     box-shadow: 10px 10px 10px $gray;
+    opacity: 1;
     position: fixed;
     top: 20px;
     transition: opacity $transition-time;

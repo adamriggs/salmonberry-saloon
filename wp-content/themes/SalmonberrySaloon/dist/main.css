@@ -782,6 +782,7 @@ footer {
   border: 1px solid #000;
   -webkit-box-shadow: 10px 10px 10px #383838;
           box-shadow: 10px 10px 10px #383838;
+  opacity: 1;
   position: fixed;
   top: 20px;
   -webkit-transition: opacity 0.25s;

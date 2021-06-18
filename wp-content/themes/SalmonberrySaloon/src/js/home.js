@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     giftCard.addEventListener('click', () => {
         const popUp = document.querySelector('.gift-card__popup__modal');
         popUp.classList.remove('pop-up--hide');
-        console.log(popUp);
     });
     console.log(giftCard);
 
@@ -61,9 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     close.forEach((elem)=> {
         elem.addEventListener('click', (e) => {
-            console.log('click');
-            console.log(elem);
-            console.log(elem.parentElement);
             elem.parentElement.classList.add('pop-up--hide');
         });
     });
