@@ -47,17 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     homeIO.observe(heroArrowNode);
 
-    // open popup
+    // open giftcard popup
     const giftCard = document.querySelector('.gift-card__popup');
     giftCard.addEventListener('click', () => {
         const popUp = document.querySelector('.gift-card__popup__modal');
         popUp.classList.remove('pop-up--hide');
     });
-    console.log(giftCard);
 
-    // close popup
+    // close any popup
     const close = Array.from(document.getElementsByClassName('pop-up--close'));
-
     close.forEach((elem)=> {
         elem.addEventListener('click', (e) => {
             elem.parentElement.classList.add('pop-up--hide');
