@@ -27,6 +27,25 @@
             "mime_types": ""
         },
         {
+            "key": "field_610e8b6c3c0e9",
+            "label": "Show Order Online Button",
+            "name": "show_order_online_button",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
             "key": "field_6085da481b3e5",
             "label": "Menu",
             "name": "menu",
@@ -267,5 +286,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1619537001
+    "modified": 1628343246
 }

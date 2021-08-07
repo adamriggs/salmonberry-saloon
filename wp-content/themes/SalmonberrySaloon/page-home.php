@@ -26,8 +26,10 @@
 
     $slideshow = get_field('slideshow');
 
+    $show_order = get_field('show_order_online_button');
+
     // echo('<pre>');
-    // print_r($slideshow);
+    // print_r($show_order);
     // echo('</pre>');
 ?>
 
@@ -49,7 +51,14 @@
         <section class="home__secondary">
             <div class="home__secondary__menu">
                 <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
+                <?php
+                    if($show_order) {
+                ?>
                 <button class="order__now middle upserve-olo-button upserve-olo-opener">Order Online</button>
+                <?php
+                    }
+                ?>
+
                 <?php echo $menu; ?>
                 <!-- <div class="order__now middle"><a href="tel:<?php echo $phone; ?>" class="button">Order Now</a></div> -->
             </div>
